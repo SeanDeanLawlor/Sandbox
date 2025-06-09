@@ -1,0 +1,49 @@
+{
+  "nodes": [
+    {
+      "position": [
+        100,
+        300
+      ],
+      "type": "Input"
+    },
+    {
+      "position": [
+        300,
+        300
+      ],
+      "type": "Z"
+    },
+    {
+      "position": [
+        200,
+        200
+      ],
+      "type": "X"
+    },
+    {
+      "position": [
+        300,
+        100
+      ],
+      "type": "Output"
+    }
+  ],
+  "edges": [
+    {
+      "fromIndex": 0,
+      "toIndex": 1,
+      "isHadamard": false
+    },
+    {
+      "fromIndex": 1,
+      "toIndex": 2,
+      "isHadamard": true
+    },
+    {
+      "fromIndex": 2,
+      "toIndex": 3,
+      "isHadamard": false
+    }
+  ]
+}

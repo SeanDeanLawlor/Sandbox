@@ -1,0 +1,73 @@
+{
+  "nodes": [
+    {
+      "position": [
+        100,
+        200
+      ],
+      "type": "Input"
+    },
+    {
+      "position": [
+        300,
+        200
+      ],
+      "type": "Input"
+    },
+    {
+      "position": [
+        200,
+        200
+      ],
+      "type": "H"
+    },
+    {
+      "position": [
+        200,
+        100
+      ],
+      "type": "Z"
+    },
+    {
+      "position": [
+        200,
+        300
+      ],
+      "type": "Output"
+    },
+    {
+      "position": [
+        400,
+        200
+      ],
+      "type": "Output"
+    }
+  ],
+  "edges": [
+    {
+      "fromIndex": 0,
+      "toIndex": 2,
+      "isHadamard": false
+    },
+    {
+      "fromIndex": 1,
+      "toIndex": 3,
+      "isHadamard": false
+    },
+    {
+      "fromIndex": 2,
+      "toIndex": 3,
+      "isHadamard": true
+    },
+    {
+      "fromIndex": 3,
+      "toIndex": 4,
+      "isHadamard": false
+    },
+    {
+      "fromIndex": 1,
+      "toIndex": 5,
+      "isHadamard": false
+    }
+  ]
+}
